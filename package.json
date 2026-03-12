@@ -1,0 +1,17 @@
+{
+  "name": "marquez-bodyshop-bot",
+  "version": "2.0.0",
+  "description": "WhatsApp Bot para Márquez Body Shop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "express": "^4.18.2",
+    "twilio": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
